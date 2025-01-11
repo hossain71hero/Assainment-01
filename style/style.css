@@ -6,7 +6,7 @@
 }
 
 /* headerSection */
-.headerSection{
+/* .headerSection{
     display: flex;
     padding-top: 35px;
     justify-content: ;
@@ -23,7 +23,7 @@ font-size: 30px;
     font-size: 18px;
     font-weight: 600;
     border-radius: 9px;
-}
+} */
 
 /* bannerSection */
 .bannerSection{
@@ -239,4 +239,126 @@ border-radius: 13px;
     box-shadow: 0px 6px 50px 0px #eae3e3;
     border-radius: 12px;
 
+}
+
+
+/* donate secton */
+.donatesection{
+    margin-top: 50px;
+    /* box-shadow: 0px 6px 50px 0px #eae3e3; */
+}
+.donatehed{
+    margin: 30px;
+}
+.donateHeading{
+    width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+.donatesection2{
+    display: flex;
+}
+.donatesection2 .box button{
+    padding: 22px 30px;
+    border: none;
+    box-shadow: 0px 6px 50px 0px #eae3e3;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+   
+}
+.donatesection2 .box button:hover{
+    padding: 22px 30px;
+    border: none;
+    box-shadow: 0px 6px 50px 0px #eae3e3;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    background-color:#54d8f5 ;
+    color: #000000;
+    transition: .5s;
+   
+}
+.donatelceBtn{
+background-color: #0f0d0d;
+}
+#donateInput{
+    width: 1250px;
+    margin:  0 auto;
+    height: 45px;
+    text-align: center;
+    box-shadow: 0px 6px 50px 0px #eae3e3;
+    border: none;
+    border-radius: 8px;
+    margin: 10px 0px 20px 81px ;
+    
+}
+.donateButton{
+    padding: 12px 26px ;
+    background-color:#006a50 ;
+    color: #f5f5f5;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+   
+}
+.donateButton:hover{
+    padding: 12px 26px ;
+    background-color:#54d8f5 ;
+    color: #000000;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: .5s;
+}
+.donateButton {
+    text-align: center;
+    margin-left: 644px;
+   
+  
+}
+
+/* subscribeContent */
+.subscribe{
+    background-color: #c6e4d6;
+    border-radius: 12px;
+}
+.subscribeContent{
+    text-align: center;
+    margin-top: 45px;
+    width: 800px;
+    padding: 35px 0px;
+}
+.subsH1p{
+    width: 500px;
+    margin-bottom: 30px;
+}
+.subscribeContent h1{
+    font-size: 38px;
+    margin-bottom: 13px;
+}
+.subscribeContent p{
+    color: #5d6a64;
+}
+.subscribeContent input{
+    width: 500px;
+    height: 30px;
+    border: none;
+    box-shadow: 0px 6px 50px 0px #eae3e3;
+    border-radius: 6px 0px 0px 6px;
+}
+.subscribeContent button{
+    padding: 9px 40px;
+    background-color: #006a50;
+    border-radius: 0px 6px 6px 0px;
+    border: none;
+    margin-right: -10px;
+    color: white;
+}
+.subsp2{
+    margin-top: 12px;
 }
